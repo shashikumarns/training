@@ -1,0 +1,387 @@
+ENBDCC_IS_Ou_TrnScsRpt;0.9;2024-11-27 15:13:30;
+Context1;context;DB_DM_SRC_USERNAME;null
+Context1;context;SRC_FILEPATH;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Input/
+Context1;context;DB_STG_SRC_PASSWORD;null
+Context1;context;DB_STG_SRC_WLTURL;jdbc:oracle:thin:/@W4BAU05_STG_ETL
+Context1;context;DB_STG_SRC_USERNAME;null
+Context1;context;DB_DM_SRC_DATABASE;null
+Context1;context;DB_STG_SRC_SCHEMA;null
+Context1;context;REPORT_DATE;2024-12-23
+Context1;context;FILTER;
+Context1;context;IN_XML_PREFIX;XADVAPL
+Context1;context;HeaderRecCnt;0
+Context1;context;J_REPORT_DATE;
+Context1;context;DB_STG_SRC_PORT;null
+Context1;context;DB_STG_SRC_DATABASE;null
+Context1;context;parentJobName;null
+Context1;context;SheetName;
+Context1;context;SENDER_ID;0015
+Context1;context;DB_W4C_TGT_WLTURL;jdbc:oracle:thin:/@W4BAU05_OWS_READ
+Context1;context;ORG_Descr;EMIRATES NBD EUR
+Context1;context;DB_DM_TGT_WLTURL;jdbc:oracle:thin:/@W4BAU05_DWH
+Context1;context;TGT_FILEPATH;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Output/
+Context1;context;RowsInExcel;1048500
+Context1;context;ORG;010
+Context1;context;COMP_TABLE;COMPARISON
+Context1;context;FORMAT_VERSION;2.0
+Context1;context;DB_DM_SRC_WLTURL;jdbc:oracle:thin:/@W4BAU05_DWH
+Context1;context;DB_W4C_SRC_WLTURL;jdbc:oracle:thin:/@W4BAU05_OWS_READ
+Context1;context;dateFormat;yyyy-MM-dd
+Context1;context;DB_DM_SRC_FILEPATH;null
+Context1;context;DB_DM_SRC_PORT;null
+Context1;context;OUT_XML_PREFIX;RXADVAPL
+Context1;context;IS_DEBUG;false
+Context1;context;TEMP;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Temp/
+Context1;context;DB_DM_SRC_SCHEMA;null
+Context1;context;TIMESTAMP;null
+Context1;context;DB_STG_SRC_FILEPATH;null
+Context1;context;W4C_OUT_FILEPATH;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/W4C-Output/
+Context1;context;ENV;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Env/W4BAU05.parm
+Context1;context;DB_STG_SRC_HOST;null
+Context1;context;LOG_FOLDER;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/
+Context1;context;RowInFile;
+Context1;context;DB_DEBUG_SRC_WLTURL;
+Context1;context;DB_DM_SRC_HOST;null
+Context1;context;DB_STG_TGT_WLTURL;jdbc:oracle:thin:/@W4BAU05_STG_ETL
+Context1;context;isConsoleLog;false
+Context1;context;W4C_IN_FILEPATH;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/W4C-Input/
+Context1;context;DB_DM_SRC_PASSWORD;null
+1732706013444;startDateTime;Load_Context_Wallet_1_tContextLoad_1;2024-11-27 15:13:30
+1732706013444;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_NB_LINE;16
+1732706013444;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_KEY_NOT_INCONTEXT;SRC_FILEPATH, W4C_IN_FILEPATH, W4C_OUT_FILEPATH, SENDER_ID, FORMAT_VERSION, IN_XML_PREFIX, OUT_XML_PREFIX, DB_W4C_SRC_WLTURL, DB_W4C_TGT_WLTURL, DB_DM_TGT_WLTURL, DB_STG_TGT_WLTURL
+1732706013444;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_KEY_NOT_LOADED;DB_DM_SRC_USERNAME, DB_STG_SRC_PASSWORD, DB_STG_SRC_USERNAME, DB_DM_SRC_DATABASE, DB_STG_SRC_SCHEMA, REPORT_DATE, FILTER, HeaderRecCnt, J_REPORT_DATE, DB_STG_SRC_PORT, DB_STG_SRC_DATABASE, parentJobName, SheetName, ORG_Descr, RowsInExcel, ORG, COMP_TABLE, dateFormat, DB_DM_SRC_FILEPATH, DB_DM_SRC_PORT, IS_DEBUG, DB_DM_SRC_SCHEMA, TIMESTAMP, DB_STG_SRC_FILEPATH, ENV, DB_STG_SRC_HOST, RowInFile, DB_DEBUG_SRC_WLTURL, DB_DM_SRC_HOST, isConsoleLog, DB_DM_SRC_PASSWORD
+1732706013444;executionTime;Load_Context_Wallet_1_tContextLoad_1;2.602 seconds
+1732706010858;startDateTime;Load_Context_Wallet_1_tFileInputDelimited_1;2024-11-27 15:13:30
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_tFileInputDelimited_1_NB_LINE;16
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_tFileInputDelimited_1_SUBPROCESS_STATE;1
+1732706010858;executionTime;Load_Context_Wallet_1_tFileInputDelimited_1;0.016 seconds
+1732706010842;startDateTime;tPrejob_1;2024-11-27 15:13:30
+1732706010842;componentsSystemVariable;tPrejob_1_SUBPROCESS_STATE;1
+1732706010842;executionTime;tPrejob_1;0.0 seconds
+1732706013350;startDateTime;Load_Context_Wallet_1_tOracleConnection_1;2024-11-27 15:13:30
+1732706013350;componentsSystemVariable;Load_Context_Wallet_1_tOracleConnection_1_SUBPROCESS_STATE;1
+1732706013350;executionTime;Load_Context_Wallet_1_tOracleConnection_1;2.492 seconds
+1732706010858;startDateTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_1;2024-11-27 15:13:30
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_1_SUBPROCESS_STATE;1
+1732706010858;executionTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_1;0.0 seconds
+1732706010858;startDateTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_2;2024-11-27 15:13:30
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_2_SUBPROCESS_STATE;1
+1732706010858;executionTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_2;0.0 seconds
+1732706010858;startDateTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_3;2024-11-27 15:13:30
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_3_SUBPROCESS_STATE;1
+1732706010858;executionTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_3;0.0 seconds
+1732706010858;startDateTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_4;2024-11-27 15:13:30
+1732706010858;componentsSystemVariable;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_4_SUBPROCESS_STATE;1
+1732706010858;executionTime;Load_Context_Wallet_1_Load_Wallet_Jars_1_tLibraryLoad_4;0.0 seconds
+1732706013428;startDateTime;Load_Context_Wallet_1_tContextLoad_2;2024-11-27 15:13:33
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_2_KEY_NOT_LOADED;DB_DM_SRC_USERNAME, SRC_FILEPATH, DB_STG_SRC_PASSWORD, DB_STG_SRC_WLTURL, DB_STG_SRC_USERNAME, DB_DM_SRC_DATABASE, DB_STG_SRC_SCHEMA, REPORT_DATE, FILTER, IN_XML_PREFIX, HeaderRecCnt, J_REPORT_DATE, DB_STG_SRC_PORT, DB_STG_SRC_DATABASE, parentJobName, SheetName, SENDER_ID, DB_W4C_TGT_WLTURL, ORG_Descr, DB_DM_TGT_WLTURL, TGT_FILEPATH, RowsInExcel, ORG, COMP_TABLE, FORMAT_VERSION, DB_DM_SRC_WLTURL, DB_W4C_SRC_WLTURL, dateFormat, DB_DM_SRC_FILEPATH, DB_DM_SRC_PORT, OUT_XML_PREFIX, IS_DEBUG, TEMP, DB_DM_SRC_SCHEMA, TIMESTAMP, DB_STG_SRC_FILEPATH, W4C_OUT_FILEPATH, ENV, DB_STG_SRC_HOST, LOG_FOLDER, RowInFile, DB_DEBUG_SRC_WLTURL, DB_DM_SRC_HOST, DB_STG_TGT_WLTURL, isConsoleLog, W4C_IN_FILEPATH, DB_DM_SRC_PASSWORD
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_2_NB_LINE;0
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_2_KEY_NOT_INCONTEXT;
+1732706013428;executionTime;Load_Context_Wallet_1_tContextLoad_2;0.078 seconds
+1732706013428;startDateTime;Load_Context_Wallet_1_tOracleInput_1;2024-11-27 15:13:33
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_NB_LINE;0
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_QUERY;
+select pars.params_name 
+     , max(val.param_value) keep (dense_rank first order by val.bank_code nulls last) as param_value 
+  from TLND_JOB_BANK_PARAMS val join TLND_JOB_PARAMS pars on (val.param_id = pars.param_id) 
+   where val.job_id = 'ENBDCC_IS_Ou_TrnScsRpt' 
+     and (val.bank_code is null or val.bank_code = '010') 
+   group by pars.params_name 
+
+1732706013428;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_SUBPROCESS_STATE;1
+1732706013428;executionTime;Load_Context_Wallet_1_tOracleInput_1;0.078 seconds
+1732706013444;startDateTime;tLogRow_1;2024-11-27 15:13:33
+1732706013444;componentsSystemVariable;tLogRow_1_NB_LINE;47
+1732706013444;executionTime;tLogRow_1;0.016 seconds
+1732706013428;startDateTime;tContextDump_1;2024-11-27 15:13:33
+1732706013428;componentsSystemVariable;Logger2_1_tContextDump_1_SUBPROCESS_STATE;0
+1732706013428;componentsSystemVariable;Logger2_1_tContextDump_1_NB_LINE;47
+1732706013428;componentsSystemVariable;tContextDump_1_NB_LINE;47
+1732706013428;componentsSystemVariable;tContextDump_1_SUBPROCESS_STATE;1
+1732706013428;executionTime;tContextDump_1;0.0 seconds
+1732706013428;startDateTime;tJava_3;2024-11-27 15:13:33
+1732706013428;componentsSystemVariable;tJava_3_SUBPROCESS_STATE;1
+1732706013428;executionTime;tJava_3;0.0 seconds
+1732706013475;startDateTime;Logs_Errors_1_tFileOutputDelimited_3;2024-11-27 15:13:33
+1732706013475;componentsSystemVariable;Logs_Errors_1_tFileOutputDelimited_3_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/ENBDCC_IS_Ou_TrnScsRpt_Info_2024-11-27.log
+1732706013475;componentsSystemVariable;Logs_Errors_1_tFileOutputDelimited_3_NB_LINE;1
+1732706013475;executionTime;Logs_Errors_1_tFileOutputDelimited_3;0.031 seconds
+1732706013459;startDateTime;Logs_Errors_1_tStatCatcher_1;2024-11-27 15:13:33
+1732706013459;componentsSystemVariable;Logs_Errors_1_tStatCatcher_1_SUBPROCESS_STATE;1
+1732706013459;executionTime;Logs_Errors_1_tStatCatcher_1;0.0 seconds
+1732706013459;startDateTime;Logs_Errors_1_tMap_3;2024-11-27 15:13:33
+1732706013459;executionTime;Logs_Errors_1_tMap_3;0.0 seconds
+1732706013475;startDateTime;Logger2_1_tSetGlobalVar_2;2024-11-27 15:13:33
+1732706013475;executionTime;Logger2_1_tSetGlobalVar_2;0.0 seconds
+1732706013475;startDateTime;Logger2_1_tStatCatcher_1;2024-11-27 15:13:33
+1732706013475;componentsSystemVariable;Logger2_1_tStatCatcher_1_SUBPROCESS_STATE;1
+1732706013475;executionTime;Logger2_1_tStatCatcher_1;0.0 seconds
+1732706013475;startDateTime;Logger2_1_tMap_2;2024-11-27 15:13:33
+1732706013475;executionTime;Logger2_1_tMap_2;0.0 seconds
+1732706013475;startDateTime;tJava_1;2024-11-27 15:13:33
+1732706013475;componentsSystemVariable;tJava_1_SUBPROCESS_STATE;1
+1732706013475;componentsSystemVariable;Logger2_1_tJava_1_SUBPROCESS_STATE;0
+1732706013475;executionTime;tJava_1;0.0 seconds
+1732706014272;startDateTime;tOracleConnection_2;2024-11-27 15:13:33
+1732706014272;componentsSystemVariable;tOracleConnection_2_SUBPROCESS_STATE;1
+1732706014272;executionTime;tOracleConnection_2;0.797 seconds
+1732706014272;startDateTime;tOracleRow_2;2024-11-27 15:13:34
+1732706014272;componentsSystemVariable;tOracleRow_2_SUBPROCESS_STATE;1
+1732706014272;componentsSystemVariable;tOracleRow_2_QUERY;
+begin
+  dbms_application_info.set_module(module_name => 'Talend_job: '||to_char(sysdate,'dd-mm-yyyy hh24:mi:ss'), action_name => 'ENBDCC_IS_Ou_TrnScsRpt');
+end;
+
+1732706014272;executionTime;tOracleRow_2;0.0 seconds
+1732706014319;startDateTime;tOracleRow_1;2024-11-27 15:13:34
+1732706014319;componentsSystemVariable;tOracleRow_1_QUERY;
+insert into OPT_TRNSCSRPT_TMP
+with orgs as (select trim(regexp_substr('010', '[^,]+', 1, level)) org
+              from dual 
+              connect by regexp_substr('010' , '[^,]+', 1, level) is not null)
+SELECT 
+    c.logo AS logo_code ,
+    c.product_name                   AS logo_name ,
+  dbo.name                   AS user_id ,
+  c.contract_number as personal_account ,
+  NVL(cd.pan, c.primarY_card_number)                                                                                                    AS card_number ,
+  TO_CHAR(tr.banking_date, 'DDMMYYYY')                                                                                      AS effective_date ,
+  TO_CHAR(NVL(tr.TRANS_DATE, tr.banking_date), 'DDMMYYYY')                                                                  AS trans_date ,
+  TO_CHAR(NVL(tr.TRANS_DATE, tr.banking_date), 'HH24.MI.SS')                                                                AS trans_time ,
+  upper(NVL(ch.name, 'Internal'))                                                                                           AS source ,
+  tr.txn_code                                                                                                               AS txn_code ,
+  upper(tr.TXN_DESCRIPTION)                                                                                                     AS trans_type ,
+  upper(DECODE(tt.request_category, 'P', 'Advice', 'Q', 'Request', 'A', 'Part Advice', 'R', 'Reversal', 'J', 'Adjustment')) AS request_category ,
+  DECODE(tt.direction, '-1', 'D','1', 'C', 'None')                                                                          AS direction ,
+  ABS(tr.amount)                                                                                                        AS trans_amount ,
+  NVL(cur.name, 'AED')                                                                                                      AS trans_currency ,
+  tr.trans_rrn ,
+  tr.trans_country_code ,
+  upper(tr.trans_city) AS trans_city ,
+  tr.trans_mcc ,
+  upper(tr.trans_details)          AS trans_details ,
+  NVL(bc.block_code_1, '_') AS block_code1 ,
+  NVL(bc.block_code_2, '_') AS block_code2,
+  c.bank_code
+from opt_dm_transaction tr
+left JOIN dwd_transaction_Type tt
+ON tt.id = tr.transaction_type_id
+LEFT OUTER JOIN dwd_bank_officer DBO
+ON dbo.id = tr.bank_officer_id
+LEFT JOIN dwd_channel ch
+ON ch.code        = tr.source_channel
+left join dwd_card cd
+  on cd.record_idt = tr.card_idt
+ and cd.record_date_From <= to_date('2024-12-23','yyyy-MM-dd')
+ and cd.record_date_to   >= to_date('2024-12-23','yyyy-MM-dd')
+join opt_dm_contract_info c
+  on c.contract_idt = tr.contract_idt
+ and c.org = '100'
+ and c.banking_date = to_date('2024-12-23','yyyy-MM-dd')
+join orgs o on o.org = c.bank_code
+LEFT JOIN dwd_currency cur
+ON cur.record_state      <> 'C'
+AND cur.record_date_to   >= to_date('2024-12-23','yyyy-MM-dd')
+AND cur.record_date_from <= to_date('2024-12-23','yyyy-MM-dd')
+AND cur.code              = tr.trans_currency
+left join (select contract_idt,
+                  max(case when decision_code = 'BLOCK_CODE_ACC1' then decision_result else null end) as block_code_1,
+                  max(case when decision_code = 'BLOCK_CODE_ACC2' then decision_result else null end) as block_code_2
+             from opt_dm_contract_decision
+            where banking_date = to_date('2024-12-23','yyyy-MM-dd')
+              and org = '100'
+              and decision_code in ('BLOCK_CODE_ACC1','BLOCK_CODE_ACC2')
+            group by contract_idt) bc
+  on bc.contract_idt = tr.contract_idt
+where tr.banking_date = to_date('2024-12-23','yyyy-MM-dd')
+and tr.org = '100'
+and nvl(tr.posting_status,'N/A') <> 'E'
+
+1732706014319;componentsSystemVariable;tOracleRow_1_SUBPROCESS_STATE;1
+1732706014319;executionTime;tOracleRow_1;0.047 seconds
+1732706015647;startDateTime;tNormalize_1;2024-11-27 15:13:34
+1732706015647;componentsSystemVariable;tNormalize_1_NB_LINE;1
+1732706015647;executionTime;tNormalize_1;1.328 seconds
+1732706015647;startDateTime;tFlowToIterate_2;2024-11-27 15:13:34
+1732706015647;componentsSystemVariable;tFlowToIterate_2_NB_LINE;1
+1732706015647;componentsSystemVariable;tFlowToIterate_2_CURRENT_ITERATION;1
+1732706015647;executionTime;tFlowToIterate_2;1.328 seconds
+1732706014334;startDateTime;tJava_2;2024-11-27 15:13:34
+1732706014334;componentsSystemVariable;Logger2_1_tJava_2_SUBPROCESS_STATE;0
+1732706014334;executionTime;tJava_2;0.015 seconds
+1732706015647;startDateTime;tFixedFlowInput_2;2024-11-27 15:13:34
+1732706015647;componentsSystemVariable;tFixedFlowInput_2_NB_LINE;1
+1732706015647;componentsSystemVariable;tFixedFlowInput_2_SUBPROCESS_STATE;1
+1732706015647;executionTime;tFixedFlowInput_2;1.328 seconds
+1732706015053;startDateTime;tFileExcelWorkbookOpen_1;2024-11-27 15:13:34
+1732706015053;componentsSystemVariable;tFileExcelWorkbookOpen_1_SUBPROCESS_STATE;1
+1732706015053;componentsSystemVariable;tFileExcelWorkbookOpen_1_COUNT_SHEETS;0
+1732706015053;executionTime;tFileExcelWorkbookOpen_1;0.719 seconds
+1732706015100;startDateTime;tOracleInput_1;2024-11-27 15:13:35
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_NB_LINE;0
+1732706015100;componentsSystemVariable;tOracleInput_1_SUBPROCESS_STATE;1
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_QUERY;
+select pars.params_name 
+     , max(val.param_value) keep (dense_rank first order by val.bank_code nulls last) as param_value 
+  from TLND_JOB_BANK_PARAMS val join TLND_JOB_PARAMS pars on (val.param_id = pars.param_id) 
+   where val.job_id = 'ENBDCC_IS_Ou_TrnScsRpt' 
+     and (val.bank_code is null or val.bank_code = '010') 
+   group by pars.params_name 
+
+1732706015100;componentsSystemVariable;tOracleInput_1_QUERY;
+select 
+max('ORG_Descr'),
+max(NAME)
+from v_dwr_institution
+where code = '010'
+
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tOracleInput_1_SUBPROCESS_STATE;1
+1732706015100;componentsSystemVariable;tOracleInput_1_NB_LINE;1
+1732706015100;executionTime;tOracleInput_1;0.047 seconds
+1732706015100;startDateTime;tContextLoad_1;2024-11-27 15:13:35
+1732706015100;componentsSystemVariable;tContextLoad_1_KEY_NOT_LOADED;DB_DM_SRC_USERNAME, SRC_FILEPATH, DB_STG_SRC_PASSWORD, DB_STG_SRC_WLTURL, DB_STG_SRC_USERNAME, DB_DM_SRC_DATABASE, DB_STG_SRC_SCHEMA, REPORT_DATE, FILTER, IN_XML_PREFIX, HeaderRecCnt, J_REPORT_DATE, DB_STG_SRC_PORT, DB_STG_SRC_DATABASE, parentJobName, SheetName, SENDER_ID, DB_W4C_TGT_WLTURL, DB_DM_TGT_WLTURL, TGT_FILEPATH, RowsInExcel, ORG, COMP_TABLE, FORMAT_VERSION, DB_DM_SRC_WLTURL, DB_W4C_SRC_WLTURL, dateFormat, DB_DM_SRC_FILEPATH, DB_DM_SRC_PORT, OUT_XML_PREFIX, IS_DEBUG, TEMP, DB_DM_SRC_SCHEMA, TIMESTAMP, DB_STG_SRC_FILEPATH, W4C_OUT_FILEPATH, ENV, DB_STG_SRC_HOST, LOG_FOLDER, RowInFile, DB_DEBUG_SRC_WLTURL, DB_DM_SRC_HOST, DB_STG_TGT_WLTURL, isConsoleLog, W4C_IN_FILEPATH, DB_DM_SRC_PASSWORD
+1732706015100;componentsSystemVariable;tContextLoad_1_KEY_NOT_INCONTEXT;
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_NB_LINE;16
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_KEY_NOT_INCONTEXT;SRC_FILEPATH, W4C_IN_FILEPATH, W4C_OUT_FILEPATH, SENDER_ID, FORMAT_VERSION, IN_XML_PREFIX, OUT_XML_PREFIX, DB_W4C_SRC_WLTURL, DB_W4C_TGT_WLTURL, DB_DM_TGT_WLTURL, DB_STG_TGT_WLTURL
+1732706015100;componentsSystemVariable;tContextLoad_1_NB_LINE;1
+1732706015100;componentsSystemVariable;Load_Context_Wallet_1_tContextLoad_1_KEY_NOT_LOADED;DB_DM_SRC_USERNAME, DB_STG_SRC_PASSWORD, DB_STG_SRC_USERNAME, DB_DM_SRC_DATABASE, DB_STG_SRC_SCHEMA, REPORT_DATE, FILTER, HeaderRecCnt, J_REPORT_DATE, DB_STG_SRC_PORT, DB_STG_SRC_DATABASE, parentJobName, SheetName, ORG_Descr, RowsInExcel, ORG, COMP_TABLE, dateFormat, DB_DM_SRC_FILEPATH, DB_DM_SRC_PORT, IS_DEBUG, DB_DM_SRC_SCHEMA, TIMESTAMP, DB_STG_SRC_FILEPATH, ENV, DB_STG_SRC_HOST, RowInFile, DB_DEBUG_SRC_WLTURL, DB_DM_SRC_HOST, isConsoleLog, DB_DM_SRC_PASSWORD
+1732706015100;executionTime;tContextLoad_1;0.047 seconds
+1732706015115;startDateTime;tFileOutputDelimited_2;2024-11-27 15:13:35
+1732706015115;componentsSystemVariable;Logger2_1_tFileOutputDelimited_2_NB_LINE;47
+1732706015115;componentsSystemVariable;Logger2_1_tFileOutputDelimited_2_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/Storage/ToProcess/ENBDCC_IS_Ou_TrnScsRpt/Yju2Ts/ENBDCC_IS_Ou_TrnScsRpt.log
+1732706015115;componentsSystemVariable;tFileOutputDelimited_2_NB_LINE;7
+1732706015115;componentsSystemVariable;tFileOutputDelimited_2_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Output/ENBDCC_IS_Ou_TrnScsRpt/ENBD_010_NBDTCR23.CSV
+1732706015115;executionTime;tFileOutputDelimited_2;0.0 seconds
+1732706015115;startDateTime;tFixedFlowInput_3;2024-11-27 15:13:35
+1732706015115;componentsSystemVariable;tFixedFlowInput_3_SUBPROCESS_STATE;1
+1732706015115;componentsSystemVariable;tFixedFlowInput_3_NB_LINE;7
+1732706015115;executionTime;tFixedFlowInput_3;0.0 seconds
+1732706015147;startDateTime;tFileOutputDelimited_1;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;Comparison_1_tFileOutputDelimited_1_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Temp/Comparison/ENBDCC_IS_Ou_TrnScsRpt/Comparison_2711.txt
+1732706015147;componentsSystemVariable;Logger2_1_tFileOutputDelimited_1_NB_LINE;1
+1732706015147;componentsSystemVariable;tFileOutputDelimited_1_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Output/ENBDCC_IS_Ou_TrnScsRpt/ENBD_010_NBDTCR23.CSV
+1732706015147;componentsSystemVariable;Logger2_1_tFileOutputDelimited_1_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/Storage/ToProcess/ENBDCC_IS_Ou_TrnScsRpt/Yju2Ts/ENBDCC_IS_Ou_TrnScsRpt.log
+1732706015147;componentsSystemVariable;Comparison_1_tFileOutputDelimited_1_NB_LINE;0
+1732706015147;componentsSystemVariable;tFileOutputDelimited_1_NB_LINE;0
+1732706015147;executionTime;tFileOutputDelimited_1;0.016 seconds
+1732706015147;startDateTime;tFileOutputDelimited_3;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;tFileOutputDelimited_3_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Temp/ENBDCC_IS_Ou_TrnScsRpt/ENBD_010_NBDTCR23.tmp
+1732706015147;componentsSystemVariable;tFileOutputDelimited_3_NB_LINE;0
+1732706015147;componentsSystemVariable;Logs_Errors_1_tFileOutputDelimited_3_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/ENBDCC_IS_Ou_TrnScsRpt_Info_2024-11-27.log
+1732706015147;componentsSystemVariable;Logs_Errors_1_tFileOutputDelimited_3_NB_LINE;1
+1732706015147;executionTime;tFileOutputDelimited_3;0.016 seconds
+1732706015147;startDateTime;tMap_2;2024-11-27 15:13:35
+1732706015147;executionTime;tMap_2;0.016 seconds
+1732706015147;startDateTime;tJavaRow_1;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;tJavaRow_1_NB_LINE;0
+1732706015147;executionTime;tJavaRow_1;0.016 seconds
+1732706015147;startDateTime;Comparison_1_tFileOutputDelimited_1;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;Comparison_1_tFileOutputDelimited_1_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Temp/Comparison/ENBDCC_IS_Ou_TrnScsRpt/Comparison_2711.txt
+1732706015147;componentsSystemVariable;Comparison_1_tFileOutputDelimited_1_NB_LINE;0
+1732706015147;executionTime;Comparison_1_tFileOutputDelimited_1;0.016 seconds
+1732706015147;startDateTime;Comparison_1_tMap_1;2024-11-27 15:13:35
+1732706015147;executionTime;Comparison_1_tMap_1;0.016 seconds
+1732706015147;startDateTime;tOracleInput_5;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;tOracleInput_5_QUERY;
+SELECT LOGO_CODE,LOGO_NAME,USER_ID,PERSONAL_ACCOUNT,CARD_NUMBER,EFFECTIVE_DATE,TRANS_DATE,TRANS_TIME,SOURCE as SOURCE_,TXN_CODE,TRANS_TYPE,REQUEST_CATEGORY,DIRECTION,TRANS_AMOUNT,TRANS_CURRENCY,TRANS_RRN,
+TRANS_COUNTRY_CODE,TRANS_CITY,TRANS_MCC,TRANS_DETAILS,BLOCK_CODE1,BLOCK_CODE2
+FROM  OPT_TRNSCSRPT_TMP
+WHERE BANK_CODE = '010'
+
+1732706015147;componentsSystemVariable;tOracleInput_5_SUBPROCESS_STATE;1
+1732706015147;componentsSystemVariable;tOracleInput_5_NB_LINE;0
+1732706015147;executionTime;tOracleInput_5;0.0 seconds
+1732706015444;startDateTime;tDBInput_1;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tDBInput_1_SUBPROCESS_STATE;1
+1732706015444;componentsSystemVariable;tDBInput_1_QUERY;select level,level*(1048500) as Rec_Cnt from dual connect by level<=ceil(0/1048500)
+1732706015444;componentsSystemVariable;tDBInput_1_NB_LINE;1
+1732706015444;executionTime;tDBInput_1;0.297 seconds
+1732706015444;startDateTime;tFlowToIterate_1;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tFlowToIterate_1_NB_LINE;1
+1732706015444;componentsSystemVariable;tFlowToIterate_1_CURRENT_ITERATION;1
+1732706015444;executionTime;tFlowToIterate_1;0.297 seconds
+1732706015147;startDateTime;tJava_6;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;tJava_6_SUBPROCESS_STATE;1
+1732706015147;executionTime;tJava_6;0.0 seconds
+1732706015147;startDateTime;tFileRowCount_1;2024-11-27 15:13:35
+1732706015147;componentsSystemVariable;tFileRowCount_1_COUNT;0
+1732706015147;componentsSystemVariable;tFileRowCount_1_SUBPROCESS_STATE;1
+1732706015147;executionTime;tFileRowCount_1;0.0 seconds
+1732706015444;startDateTime;tFileExcelSheetOutput_1;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_1_LAST_ROW_INDEX;8
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_1_NB_LINE;7
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_1_SHEET_NAME;Success_Report
+1732706015444;executionTime;tFileExcelSheetOutput_1;0.282 seconds
+1732706015162;startDateTime;tJava_4;2024-11-27 15:13:35
+1732706015162;componentsSystemVariable;Logger2_1_tJava_4_SUBPROCESS_STATE;0
+1732706015162;executionTime;tJava_4;0.0 seconds
+1732706015444;startDateTime;tFixedFlowInput_1;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tFixedFlowInput_1_SUBPROCESS_STATE;1
+1732706015444;componentsSystemVariable;tFixedFlowInput_1_NB_LINE;7
+1732706015444;executionTime;tFixedFlowInput_1;0.016 seconds
+1732706015444;startDateTime;tFileExcelSheetOutput_3;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_3_NB_LINE;0
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_3_LAST_ROW_INDEX;8
+1732706015444;componentsSystemVariable;tFileExcelSheetOutput_3_SHEET_NAME;Success_Report
+1732706015444;executionTime;tFileExcelSheetOutput_3;0.0 seconds
+1732706015647;startDateTime;tFileExcelWorkbookSave_1;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;tFileExcelWorkbookSave_1_FILENAME;D:\Environments\W4BAU05\Interface\Issuing\ENBD-CC\Output\ENBDCC_IS_Ou_TrnScsRpt\ENBD_010_NBDTCR23.xlsx
+1732706015647;componentsSystemVariable;tFileExcelWorkbookSave_1_COUNT_SHEETS;1
+1732706015647;componentsSystemVariable;tFileExcelWorkbookSave_1_SUBPROCESS_STATE;1
+1732706015647;executionTime;tFileExcelWorkbookSave_1;0.203 seconds
+1732706015444;startDateTime;tJava_5;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;tJava_5_SUBPROCESS_STATE;1
+1732706015444;executionTime;tJava_5;0.0 seconds
+1732706015444;startDateTime;tFileInputDelimited_1;2024-11-27 15:13:35
+1732706015444;componentsSystemVariable;Load_Context_Wallet_1_tFileInputDelimited_1_NB_LINE;16
+1732706015444;componentsSystemVariable;tFileInputDelimited_1_NB_LINE;0
+1732706015444;componentsSystemVariable;tFileInputDelimited_1_SUBPROCESS_STATE;1
+1732706015444;componentsSystemVariable;Load_Context_Wallet_1_tFileInputDelimited_1_SUBPROCESS_STATE;1
+1732706015444;executionTime;tFileInputDelimited_1;0.0 seconds
+1732706015662;startDateTime;Logger2_1_tFileOutputDelimited_1;2024-11-27 15:13:35
+1732706015662;componentsSystemVariable;Logger2_1_tFileOutputDelimited_1_NB_LINE;1
+1732706015662;componentsSystemVariable;Logger2_1_tFileOutputDelimited_1_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/Storage/ToProcess/ENBDCC_IS_Ou_TrnScsRpt/Yju2Ts/ENBDCC_IS_Ou_TrnScsRpt.log
+1732706015662;executionTime;Logger2_1_tFileOutputDelimited_1;0.015 seconds
+1732706015647;startDateTime;Logger2_1_tSetGlobalVar_1;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;Logger2_1_tSetGlobalVar_1_SUBPROCESS_STATE;0
+1732706015647;executionTime;Logger2_1_tSetGlobalVar_1;0.0 seconds
+1732706015647;startDateTime;tOracleClose_2;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;tOracleClose_2_SUBPROCESS_STATE;0
+1732706015647;executionTime;tOracleClose_2;0.0 seconds
+1732706015647;startDateTime;tFileDelete_1;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;tFileDelete_1_DELETE_PATH;D:\Environments\W4BAU05\Interface\Issuing\ENBD-CC\Temp\ENBDCC_IS_Ou_TrnScsRpt\ENBD_010_NBDTCR23.tmp
+1732706015647;componentsSystemVariable;tFileDelete_1_CURRENT_STATUS;File deleted.
+1732706015647;executionTime;tFileDelete_1;0.0 seconds
+1732706015647;startDateTime;tFileList_3;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;tFileList_3_SUBPROCESS_STATE;0
+1732706015647;componentsSystemVariable;tFileList_3_CURRENT_FILEDIRECTORY;D:\Environments\W4BAU05\Interface\Issuing\ENBD-CC\Temp\ENBDCC_IS_Ou_TrnScsRpt
+1732706015647;componentsSystemVariable;tFileList_3_CURRENT_FILE;ENBD_010_NBDTCR23.tmp
+1732706015647;componentsSystemVariable;tFileList_3_CURRENT_FILEEXTENSION;tmp
+1732706015647;componentsSystemVariable;tFileList_3_CURRENT_FILEPATH;D:\Environments\W4BAU05\Interface\Issuing\ENBD-CC\Temp\ENBDCC_IS_Ou_TrnScsRpt\ENBD_010_NBDTCR23.tmp
+1732706015647;componentsSystemVariable;tFileList_3_NB_FILE;1
+1732706015647;executionTime;tFileList_3;0.0 seconds
+1732706015647;startDateTime;tPostjob_1;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;tPostjob_1_SUBPROCESS_STATE;0
+1732706015647;executionTime;tPostjob_1;0.0 seconds
+1732706015647;startDateTime;Logger2_1_tJava_1;2024-11-27 15:13:35
+1732706015647;componentsSystemVariable;Logger2_1_tJava_1_SUBPROCESS_STATE;0
+1732706015647;executionTime;Logger2_1_tJava_1;0.0 seconds
+1732706015678;startDateTime;Logger2_1_tFileOutputDelimited_2;2024-11-27 15:13:35
+1732706015678;componentsSystemVariable;Logger2_1_tFileOutputDelimited_2_NB_LINE;47
+1732706015678;componentsSystemVariable;Logger2_1_tFileOutputDelimited_2_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/Storage/ToProcess/ENBDCC_IS_Ou_TrnScsRpt/Yju2Ts/ENBDCC_IS_Ou_TrnScsRpt.log
+1732706015678;executionTime;Logger2_1_tFileOutputDelimited_2;0.016 seconds
+1732706015662;startDateTime;Logger2_1_tMap_1;2024-11-27 15:13:35
+1732706015662;executionTime;Logger2_1_tMap_1;0.0 seconds
+1732706015662;startDateTime;Logger2_1_tContextDump_1;2024-11-27 15:13:35
+1732706015662;componentsSystemVariable;Logger2_1_tContextDump_1_SUBPROCESS_STATE;0
+1732706015662;componentsSystemVariable;Logger2_1_tContextDump_1_NB_LINE;47
+1732706015662;executionTime;Logger2_1_tContextDump_1;0.0 seconds
+1732706015662;startDateTime;Logger2_1_tJava_2;2024-11-27 15:13:35
+1732706015662;componentsSystemVariable;Logger2_1_tJava_2_SUBPROCESS_STATE;0
+1732706015662;executionTime;Logger2_1_tJava_2;0.0 seconds
+null;startDateTime;Logger2_1_tFileOutputDelimited_4;2024-11-27 15:13:35
+null;componentsSystemVariable;Logger2_1_tFileOutputDelimited_4_FILE_NAME;D:/Environments/W4BAU05/Interface/Issuing/ENBD-CC/Logs/Storage/ToProcess/ENBDCC_IS_Ou_TrnScsRpt/Yju2Ts/ENBDCC_IS_Ou_TrnScsRpt.log
+null;startDateTime;Logger2_1_tJava_4;2024-11-27 15:13:35
+null;componentsSystemVariable;Logger2_1_tJava_4_SUBPROCESS_STATE;0
+1732706015647;overallExecutionTime;ENBDCC_IS_Ou_TrnScsRpt;4.805 seconds
+ENBDCC_IS_Ou_TrnScsRpt;0.9;2024-11-27 15:13:30;2024-11-27 15:13:35
